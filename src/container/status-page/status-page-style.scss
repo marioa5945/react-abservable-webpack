@@ -1,0 +1,39 @@
+.otherStatus {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > div {
+    text-align: center;
+    position: relative;
+    top: -100px;
+
+    h1 {
+      color: #1e1e1e;
+      margin-bottom: 15px;
+      font-size: 48px;
+    }
+
+    h3 {
+      color: #aaa;
+      margin-bottom: 50px;
+      font-weight: normal;
+    }
+
+    > span {
+      cursor: pointer;
+      color: #777;
+      text-decoration: underline;
+
+      &:hover {
+        color: #f20;
+      }
+    }
+  }
+}
