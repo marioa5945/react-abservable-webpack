@@ -16,24 +16,6 @@
         "version": "7.0.0-beta.0"
       }
     ],
-    [
-      "@babel/plugin-proposal-decorators",
-      {
-        "legacy": true
-      }
-    ],
-    [
-      "@babel/plugin-proposal-class-properties",
-      {
-        "loose": true
-      }
-    ],
-    [
-      "@babel/plugin-proposal-private-methods",
-      {
-        "loose": true
-      }
-    ],
     "const-enum"
   ]
 }
